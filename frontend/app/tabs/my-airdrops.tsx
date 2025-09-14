@@ -410,7 +410,7 @@ export default function MyAirdrops() {
               {selectedFilter === 'all' && (
                 <TouchableOpacity
                   style={[styles.exploreButton, { backgroundColor: theme.accent }]}
-                  onPress={() => router.push('/')}
+                  onPress={() => router.push('/tabs/')}
                 >
                   <Text style={styles.exploreButtonText}>Explore Airdrops</Text>
                 </TouchableOpacity>
